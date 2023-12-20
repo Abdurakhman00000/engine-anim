@@ -1,0 +1,152 @@
+body {
+    background-color: #333;
+}
+
+
+
+
+.container {
+    position: relative;
+    height: 200px;
+    background-color: #444;
+}
+
+.engine {
+    padding: 50px;
+    height: 100%;
+}
+
+.box {
+    background-color: #fff;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 100px 0 0 100px;
+}
+
+
+@keyframes move-box {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: calc(100% - 200px);
+    }
+}
+
+.box {
+    animation: move-box 0.4s infinite alternate-reverse;
+}
+
+
+.engine2 {
+    padding: 50px;
+    height: 100%;
+}
+
+
+.container {
+    position: relative;
+    height: 200px;
+    background-color: #444;
+}
+
+.box2 {
+    background-color: #fff;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 100px 0 0 100px;
+}
+
+
+@keyframes move-box2 {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: calc(100% - 200px);
+    }
+}
+
+.box2 {
+    animation: move-box2 0.5s infinite alternate-reverse;
+}
+
+
+.engine3 {
+    padding: 50px;
+    height: 100%;
+}
+
+
+.container {
+    position: relative;
+    height: 200px;
+    background-color: #444;
+}
+
+.box3 {
+    background-color: #fff;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 100px 0 0 100px;
+}
+
+
+@keyframes move-box3 {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: calc(100% - 200px);
+    }
+}
+
+.box3 {
+    animation: move-box3 0.4s infinite alternate-reverse;
+}
+
+
+
+
+.engine4 {
+    padding: 50px;
+    height: 100%;
+}
+
+
+.container {
+    position: relative;
+    height: 200px;
+    background-color: #444;
+}
+
+.box4 {
+    background-color: #fff;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 100px 0 0 100px;
+}
+
+
+@keyframes move-box4 {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: calc(100% - 200px);
+    }
+}
+
+.box4 {
+    animation: move-box4 0.5s infinite alternate-reverse;
+}
+
+
